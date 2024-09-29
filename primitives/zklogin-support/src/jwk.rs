@@ -3,7 +3,7 @@ use sp_core::ConstU32;
 use sp_runtime::BoundedVec;
 use sp_std::result::Result;
 
-const GOOGLE_JWK_LIST: [JWK; 4] = [
+const GOOGLE_JWK_LIST: [JWK; 5] = [
     JWK {
         kty: "RSA",
         e: "AQAB",
